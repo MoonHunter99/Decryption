@@ -1,6 +1,8 @@
 #decrytion function
 def decryption():
     #kunin mo input ni user kung anong dedecrypt niya 
+    msg_to_decrpypt = str(input("What is the message you want to decrypt?: "))
+    decrypted_text = ""
     #palitan yung mga symbols ng corresponding letters tapos print mo na output
     #print mo output
 
