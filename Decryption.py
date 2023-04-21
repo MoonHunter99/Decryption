@@ -11,7 +11,7 @@ def encryption():
     #kunin mo input ni user kung anong encrypt niya
     msg_to_decrpypt = str(input("What is the message you want to decrypt?: "))
     #palitan yung mga letters ng corresponding symbols tapos print mo na output print mo narin output
-    print(msg_to_decrpypt.replace("*","a").replace("&","e").replace("#","i").replace("+","o").replace("!","u"))
+    print(msg_to_decrpypt.replace("a","*").replace("e","&").replace("i","#").replace("o","+").replace("u","!"))
     
 
 
